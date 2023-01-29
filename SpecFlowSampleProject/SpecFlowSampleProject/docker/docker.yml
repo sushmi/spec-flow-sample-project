@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  sftp:
+    image: atmoz/sftp
+    volumes:
+      - /tmp/specflow/docker/upload:/home/specflow/upload
+      - /tmp/specflow/docker/result:/home/specflow/result
+      - /tmp/specflow/docker/archive:/home/specflow/archive
+
+    ports:
+      - "2222:22"
+    command: specflow:pass:1001

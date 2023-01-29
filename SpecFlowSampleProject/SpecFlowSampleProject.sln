@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowSampleProject", "SpecFlowSampleProject\SpecFlowSampleProject.csproj", "{FAB00890-E4DF-4AAD-86C1-759FBCBD13AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{180DE38B-3FF3-49E1-97AA-5095D5C0E6EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowSampleIntegrationTest", "Tests\SpecFlowSampleIntegrationTest\SpecFlowSampleIntegrationTest.csproj", "{160349F1-E8C6-4E52-BFCC-F36671F2C793}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowSampleTest", "Tests\SpecFlowSampleTest\SpecFlowSampleTest.csproj", "{24FD07D3-7624-4080-A336-73B0F8B10130}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAB00890-E4DF-4AAD-86C1-759FBCBD13AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB00890-E4DF-4AAD-86C1-759FBCBD13AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB00890-E4DF-4AAD-86C1-759FBCBD13AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB00890-E4DF-4AAD-86C1-759FBCBD13AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{160349F1-E8C6-4E52-BFCC-F36671F2C793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{160349F1-E8C6-4E52-BFCC-F36671F2C793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{160349F1-E8C6-4E52-BFCC-F36671F2C793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{160349F1-E8C6-4E52-BFCC-F36671F2C793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24FD07D3-7624-4080-A336-73B0F8B10130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24FD07D3-7624-4080-A336-73B0F8B10130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24FD07D3-7624-4080-A336-73B0F8B10130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24FD07D3-7624-4080-A336-73B0F8B10130}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{160349F1-E8C6-4E52-BFCC-F36671F2C793} = {180DE38B-3FF3-49E1-97AA-5095D5C0E6EF}
+		{24FD07D3-7624-4080-A336-73B0F8B10130} = {180DE38B-3FF3-49E1-97AA-5095D5C0E6EF}
+	EndGlobalSection
+EndGlobal
